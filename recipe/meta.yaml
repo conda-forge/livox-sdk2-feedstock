@@ -24,12 +24,6 @@ requirements:
     - pkg-config
     - ninja
 
-test:
-  requires:
-    - cmake-package-check
-    - {{ compiler('c') }}
-    - {{ compiler('cxx') }}
-
 about:
   home: https://github.com/Livox-SDK/Livox-SDK2
   license: MIT

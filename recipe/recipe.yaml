@@ -27,6 +27,11 @@ requirements:
     - pkg-config
     - ninja
 
+tests:
+  - package_contents:
+      include:
+        - "livox_lidar_api.h"
+
 about:
   license: MIT
   license_file: LICENSE.txt

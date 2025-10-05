@@ -25,7 +25,6 @@ requirements:
     - ninja
 
 test:
-  commands:
   requires:
     - cmake-package-check
     - {{ compiler('c') }}

@@ -33,8 +33,6 @@ tests:
         - cmake-package-check
         - ${{ compiler('c') }}
         - ${{ compiler('cxx') }}
-    script:
-
 about:
   license: MIT
   license_file: LICENSE.txt

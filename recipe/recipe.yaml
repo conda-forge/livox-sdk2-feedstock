@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: livox-sdk2
-  version: "1.2.5"
+  version: "1.3.1"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://github.com/Livox-SDK/Livox-SDK2/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 38d65c969788285f298227fbd954eb253e2816e4a6a93a9bfc624cf91fb5e75a
+    sha256: 749d31ca17460bb405d8d66b16386b653478a731774596f36b58282b0fcbe6cf
     patches:
       - 0001-update-cmake-minimum-version.patch
       - 0002-Add-missing-includes-for-ubuntu-24.04-comp.patch
@@ -19,7 +19,7 @@ source:
       - 0005-replace-posix-calls-on-win.patch
 
 build:
-  number: 2
+  number: 0
 
 requirements:
   build:
